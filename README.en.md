@@ -73,9 +73,14 @@
 
 ### 💬 Contact
 
-<p align="center">
-  <a href="https://discord.gg/4bhhMhSHaY"><img src="./assets/discord-level-code-en.svg" alt="Level Code — Discord store" width="420" /></a>
-  &nbsp;
-  <img src="./assets/discord-pessoal-en.svg" alt="Whit // @.gusp_ — Personal Discord" width="420" />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://discord.gg/4bhhMhSHaY"><img src="./assets/discord-level-code-en.svg" alt="Level Code — Discord store" width="420" /></a>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/discord-pessoal-en.svg" alt="Whit // @.gusp_ — Personal Discord" width="420" />
+    </td>
+  </tr>
+</table>
 <p align="center"><sub>Add me on Discord: @<code>.gusp_</code></sub></p>
