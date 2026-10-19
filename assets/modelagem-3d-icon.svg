@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Modelagem 3D</title>
+  <style>
+    .cube { animation: float 5s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @media (prefers-reduced-motion: reduce) { .cube { animation: none; } }
+  </style>
+  <rect width="65" height="65" rx="14" fill="#242938"/>
+  <ellipse cx="32.5" cy="53" rx="14" ry="2" fill="#B09AFF" fill-opacity=".12"/>
+  <g class="cube" stroke="#B09AFF" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M32.5 12L50.5 22.5L32.5 33L14.5 22.5Z" fill="#B09AFF" fill-opacity=".24"/>
+    <path d="M14.5 22.5L32.5 33V54L14.5 43.5Z" fill="#B09AFF" fill-opacity=".1"/>
+    <path d="M32.5 33L50.5 22.5V43.5L32.5 54Z" fill="#B09AFF" fill-opacity=".04"/>
+    <path d="M23.5 17.25L41.5 27.75V48.75M41.5 17.25L23.5 27.75V48.75M14.5 33L32.5 43.5L50.5 33" stroke-opacity=".4" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Mapas e cenários para FiveM</title>
+  <style>
+    .pin { animation: float 4s ease-in-out infinite; }
+    .route { stroke-dasharray: 3 4; animation: flow 5s linear infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+    @media (prefers-reduced-motion: reduce) { .pin,.route { animation: none; } }
+  </style>
+  <rect width="65" height="65" rx="14" fill="#242938"/>
+  <g stroke="#65D5AD" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M10 27L24 22L41 27L55 22V48L41 53L24 48L10 53Z" fill="#65D5AD" fill-opacity=".08"/>
+    <path d="M24 22V48M41 27V53" stroke-opacity=".4"/>
+    <path class="route" d="M15 43L25 38L34 43L49 37" stroke-opacity=".7"/>
+  </g>
+  <g class="pin">
+    <path d="M41 20C41 27 32.5 34 32.5 34S24 27 24 20A8.5 8.5 0 0 1 41 20Z" fill="#65D5AD" stroke="#242938" stroke-width="2"/>
+    <circle cx="32.5" cy="20" r="3" fill="#242938"/>
+  </g>
+</svg>

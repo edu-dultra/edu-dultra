@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Eduardo Dultra (Whitzin)</title>
+  <desc id="desc">Full Stack Developer, systems and FiveM. Black and white banner with animated waves and code elements.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101010"/><stop offset=".48" stop-color="#1B1B1B"/><stop offset="1" stop-color="#0D0D0D"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="136" y1="82" x2="1064" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C1C1C"/><stop offset=".46" stop-color="#424242"/><stop offset=".8" stop-color="#666666"/><stop offset="1" stop-color="#3C3C3C"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".62" cy=".26" r=".75">
+      <stop stop-color="#FFFFFF" stop-opacity=".35"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="60" y="12" width="1080" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <clipPath id="screen"><rect x="124" y="64" width="952" height="192" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .light { animation: light 8s ease-in-out infinite; }
+    .waves { animation: waves 9s ease-in-out infinite; }
+    .code { animation: float 6s ease-in-out infinite; }
+    .particle { animation: float 5s ease-in-out infinite; }
+    .particle-two { animation: float 7s ease-in-out -2s infinite; }
+    @keyframes light { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes waves { 0%,100% { transform: translateX(-10px); } 50% { transform: translateX(10px); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @media (prefers-reduced-motion: reduce) { .light,.waves,.code,.particle,.particle-two { animation: none; } }
+  </style>
+  <rect width="1200" height="320" rx="22" fill="url(#background)"/>
+  <g filter="url(#shadow)">
+    <rect x="110" y="50" width="980" height="220" rx="18" fill="#151515"/>
+    <rect x="124" y="64" width="952" height="192" rx="14" fill="url(#panel)"/>
+  </g>
+  <g clip-path="url(#screen)">
+    <rect class="light" x="124" y="64" width="952" height="192" fill="url(#light)"/>
+    <g class="waves">
+      <path d="M108 222C266 182 381 240 533 209C687 177 770 140 902 159C990 172 1047 196 1092 180V266H108Z" fill="#111111" fill-opacity=".56"/>
+      <path d="M108 235C272 204 400 253 551 225C704 197 782 163 913 181C997 192 1051 215 1092 202V266H108Z" fill="#FFFFFF" fill-opacity=".13"/>
+    </g>
+    <g class="code" fill="#FFFFFF" fill-opacity=".32" font-family="Consolas,Monaco,monospace" font-size="22" font-weight="700">
+      <text x="176" y="137">Lua</text>
+      <text x="923" y="132">{ code }</text>
+      <text x="862" y="224">&lt;/&gt;</text>
+    </g>
+    <g fill="#FFFFFF" fill-opacity=".38">
+      <circle class="particle" cx="250" cy="88" r="4"/>
+      <circle class="particle-two" cx="948" cy="235" r="4"/>
+      <circle class="particle" cx="1022" cy="160" r="2.8"/>
+    </g>
+    <g fill="#FFF" fill-opacity=".26">
+      <rect x="142" y="82" width="68" height="8" rx="4"/>
+      <rect x="988" y="82" width="58" height="8" rx="4"/>
+      <circle cx="1048" cy="86" r="4"/>
+    </g>
+    <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+      <text x="600" y="157" fill="#FFFFFF" font-size="57" font-weight="800" letter-spacing="1">EDUARDO DULTRA</text>
+      <text x="600" y="201" fill="#E6E6E6" font-size="21" font-weight="500">Full Stack Developer | Systems &amp; FiveM</text>
+    </g>
+  </g>
+</svg>
